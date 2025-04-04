@@ -1,11 +1,11 @@
 # This repo will be used as a sample project for Azure DevOps 
 
-Post-deployment inline script in the Release pipeline
+Post-deployment inline script in the Release pipeline: 
 cp -rf /home/site/wwwroot/package/* /home/site/wwwroot/
 
 Note: You must set the app settings as below to disable all file caching:
 
-WEBSITE_DYNAMIC_CACHE=0
+WEBSITE_DYNAMIC_CACHE=0,
 WEBSITE_LOCAL_CACHE_OPTION=Never
 
 Build Pipeline YAML code:
